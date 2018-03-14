@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  display: block;
+}
+
+body{ background-color:#fff; font-family:"微软雅黑"; letter-spacing:1px; font-size:14px; color:#000; margin:0; padding:0; overflow-y:scroll;*overflow-y:hidden;}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+fieldset, img, a {
+    border: 0 none;
+}
+
+ul, ol, li {
+    list-style: outside none none;
+}
+
+p, pre {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    outline: 0 none;
+}
+
+/* sticky footer begin */
+body {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+header, footer {
+	flex: none;
+}
+img:hover{
+	/*cursor: pointer;*/
+}
+input[type=number] {  
+    -moz-appearance:textfield;  
+}  
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: none;  
+    margin: 0;  
+} 
+
+input::-ms-reveal{
+	display:none;
+}
+input::-ms-clear{display:none;}
+input:focus {outline: none; background: none;}
+input,button{outline:none;
+background: none;
+} 
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+
+}
+a:hover{
+	text-decoration: none;
+	 cursor: pointer;
+}
+a:focus{
+text-decoration: none;
+outline: none;
+}
+select:focus{
+	outline: none;
+	border: none;
+	background: none;
+}
+select{
+	background: none;
+}
+em,i{
+	font-style: normal;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.Left{
+	float: left;
+}
+
+.Right{
+	float: right;
+}
+.inBlock{
+	display: inline-block;
+}
+.textR{
+	text-align: right;
+}
+.textL{
+	text-align: left;
+}
+.textC{
+	text-align: center;
+}
+.mt24{
+	margin-top: 24px;
+}
+.pb22{
+	padding-bottom: 22px;
+}
+.pl24{
+	padding-left: 24px;
+}
+.pl20{
+	padding-left: 19px;
+}
+.pr30{
+	padding-right: 30px;
+}
+.mr30{
+	margin-right: 10px;
+}
+.height{
+	height: 179px;
+}
+
+.mr38{
+	margin-right: 32px;
+}
+.ml20{
+	margin-left: 20px;
+}
+.pt20{
+	padding-top: 20px;
+}
+/* sticky footer end */

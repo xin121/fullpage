@@ -1,0 +1,750 @@
+/**/
+.wrap{
+	width: 71%;
+	margin: 0 auto;
+	min-width: 980px;
+	height: 100%;
+}
+/*顶部导航*/
+.hearder{
+	height: 8.7%;
+	width: 100%;
+	position: fixed;
+	#position:fixed;  
+	_position:fixed;  
+  	list-style-type: none; 
+  	z-index: 1000;
+	background: #fff;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	min-height: 60px;
+	line-height: 8.7%;
+}
+.heardLogo{
+	height: 100%;
+	width: 19.1%;
+	padding-top: 0.8%;
+}
+.logoname{
+	width: 21.5%;
+}
+.logo{
+	width: 49%;
+	margin-left:19%;
+}
+.heardNav{
+	height: 100%;
+}
+#menu{
+	margin-top: 3%;
+	display: inline-block;
+	*margin-top: 10px;
+}
+#menu li{
+	float: left;
+	padding: 2px;
+}
+#menu a{
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 22px;
+	font-size: 18px;
+	color: #000;
+	font-family: "微软雅黑";
+	font-weight: 700;
+	-webkit-transition:color .2s ease-in;
+	-moz-transition:color .2s ease-in;
+	transition:color .2s ease-in;
+	/*height: 80%;*/
+}
+
+#menu a:hover{
+	color: #1d70fa;
+}
+#menu .active a{
+	color: #1d70fa;
+	border-bottom: 3px solid #1d70fa;
+}
+/*首页样式*/
+.homeBg{
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.imgText{
+	/*width: 100%;*/
+}
+.linea{
+	position: absolute;
+	width: 40%;
+}
+.word{
+	width: 19%;
+	position: absolute;
+	top: 23.7%;
+	left: 15%;
+}
+.group{
+	position: absolute;
+	width: 35%;
+	right: 18%;
+	bottom: -4%;
+}
+/*One OS*/
+.wordImg{
+	margin-top: -20px;
+	text-align: center;
+	*margin-top: 20px;
+}
+.OneOsCon{
+	width: 100%;
+	/*height: 85%;*/
+	/*overflow: hidden;*/
+}
+.OneOS{
+	width: 17.75%;
+}
+.one{
+	width: 13%;
+}
+.conWord p{
+	margin-top: 15px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 16px;
+    line-height: 180%;
+}
+.phoneImg{
+	margin-top: 100px;
+	text-align: center;
+}
+.phoneImg a{
+	display: inline-block;
+	cursor: default;
+}
+ .phoneAnimat{
+	-webkit-animation: fadeInScale 1s .5s ease both;
+	-moz-animation: fadeInScale 1s .5s ease both;
+	-o-animation: fadeInScale 1s .5s ease both;
+	animation: fadeInScale 1s .5s ease both;
+}
+
+.phoneImg a:hover img{
+	-webkit-animation: shake 1s ease ;
+	-moz-animation: shake 1s ease;
+	-o-animation: shake 1s ease;
+	animation: shake 1s ease;
+}
+.phoneImg a:nth-child(2){
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.phoneImg a:nth-child(3){
+	margin-right: 4%;
+}
+.phoneImg a:nth-child(1){
+	width: 9.25%;
+}
+.phoneImg a:nth-child(3){
+	width: 13%;
+}
+.phoneImg a:nth-child(2){
+	width: 13.1%;
+}
+.phoneImg a:nth-child(4){
+	width: 10.04%;
+}
+/*应用市场*/
+.market{
+	text-align: center;
+	/*background: url(../img/markBg.png);*/
+}
+.markBg{
+	width: 65.1%;
+	height: 98%;
+	
+}
+.marketCon{
+	width: 60%;
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	text-align: left;
+	margin-left: 11.5%;
+}
+.markwor{
+	width: 20%;
+	/*-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+    margin-left: 10%;
+    margin-top: 20%;*/
+}
+.marketCon p{
+	/*float: left;*/
+	margin-top: 40px;
+	color: #fff;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 180%;
+    /*line-height: 270%;*/
+    text-align: left;
+    /*margin-left: 1.5%;
+    writing-mode: tb-rl;*/
+    /*margin-top: -20%;*/
+    
+}
+/*开放平台*/
+
+.openImg{
+	position: absolute;
+	width: 68%;
+	bottom: 1%;
+	left: 13%;
+	/*overflow: hidden;*/
+	/*background: url(../img/webp.png) no-repeat;*/
+	/*z-index: 99;*/
+	/*height: 60%;*/
+}
+.markImg{
+	/*left: 0;
+	top: 0;*/
+	/*width: 95%;*/
+	/*position: absolute;*/
+	
+}
+.imgGrap img{
+	position: absolute;
+	z-index: 99;
+}
+.grapa{
+	position: absolute;
+	left: 11.5%;
+	top: -5%;
+	width: 10%;
+	height: 35%;
+	overflow: hidden;
+}
+.grapa img{
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	width: 58%;
+	-webkit-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+	-webkit-animation-duration: 2s;  
+          animation-duration: 2s; 
+}
+.grapa .hs{
+	bottom: 50%;
+}
+.grapa .game{
+	width: 30%;
+	left: 29.5%;
+	bottom: 65%;
+}
+.grapb{
+	position: absolute;
+	left: 29%;
+	top: -4%;
+	width: 16.65%;
+	height: 50%;
+	overflow: hidden;
+}
+.grapb img{
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	width: 58%;
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 2s;  
+          animation-duration: 2s; 
+}
+.grapb .redImg{
+	bottom: 57%;
+}
+.grapb .radi{
+	width: 24%;
+	left: 32%;
+	bottom: 75%;
+}
+.grapc{
+	position: absolute;
+	left: 18%;
+	top: -6%;
+	width: 18.79%;
+	height: 65%;
+	overflow: hidden;
+}
+.grapc img{
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	width: 58%;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	-webkit-animation-duration: 2s;  
+          animation-duration: 2s; 
+	
+}
+.grapc .redImg{
+	bottom: 62%;
+	left: 15%;
+	width: 54%;
+}
+.grapc .radi{
+	width: 22%;
+	left: 31%;
+	bottom: 75%;
+}
+.grapd{
+	position: absolute;
+	left: 39%;
+	top: 5%;
+	width: 20.2%;
+	height: 75%;
+	overflow: hidden;
+}
+.grapd img{
+	position: absolute;
+	bottom: 0%;
+	left: 15%;
+	width: 58%;
+	
+}
+.grapd .redImg{
+	bottom: 55%;
+	left: 15%;
+	width: 54%;
+}
+.grapd .radi{
+	width: 24%;
+	left: 30%;
+	bottom: 70%;
+}
+.openCon{
+	float: right;
+	width: 40%;
+	margin-top: -300px;
+	*margin-top: 200px;
+}
+.open p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 180%;
+}
+.openCon .openwor{
+	/*width: 37.9%;*/
+	width: 35%;
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	-moz-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+}
+.openCon .openWord{
+	-webkit-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.titeAmo{
+	-webkit-animation: fadeInDown 1s .5s ease both;
+	-moz-animation: fadeInDown 1s .5s ease both;
+	-o-animation: fadeInDown 1s .5s ease both;
+	animation: fadeInDown 1s .5s ease both;
+}
+.wordAmo{
+	-webkit-animation: fadeInDown 1s .5s ease both;
+	-moz-animation: fadeInDown 1s .5s ease both;
+	-o-animation: fadeInDown 1s .5s ease both;
+	animation: fadeInDown 1s .5s ease both;
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+.oneAmo{
+	-webkit-animation: fadeInDown 1s .5s ease both;
+	-moz-animation: fadeInDown 1s .5s ease both;
+	-o-animation: fadeInDown 1s .5s ease both;
+	animation: fadeInDown 1s .5s ease both;
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+.conAmo{
+	-webkit-animation: fadeInDown 1s .5s ease both;
+	-moz-animation: fadeInDown 1s .5s ease both;
+	-o-animation: fadeInDown 1s .5s ease both;
+	animation: fadeInDown 1s .5s ease both;
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+/*智能硬件*/
+.hardware{
+	background: url(../img/bga.png);
+	width: 100%;
+}
+.wareTop{
+	width: 75%;
+	margin: 0 auto;
+	min-width: 1040px;
+	height: 60%;
+	
+}
+.widImg{
+	/*width: 35.662%;*/
+	width: 30%;
+}
+.wareWordImg{
+	padding-top: 6%;
+	text-align: center;
+}
+.maxImg{
+	padding-top: 9%;
+	height: 100%;
+	line-height: 100%;
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 5%;
+    position: relative;
+   
+}
+.maxImg img{
+	position: absolute;
+	 *top:100px;
+}
+.wareTop .Left{
+	width: 50%;
+	*width: 45%;
+}
+.wareWord p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 180%;
+}
+.wareBom{
+	/*width: 90%;*/
+	width: 65%;
+	margin: 0 auto;
+	min-width: 1040px;
+}
+.leftImg{
+	width: 25%;
+	*width: 24%;
+	text-align: center;
+}
+/*.minImg{
+	background: url(../img/ys.png) no-repeat;
+	width: 360px;
+	margin: 0 auto;
+	height: 225px;
+	line-height: 225px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.minImg:hover,.ImgActive{
+	background: url(../img/ns.png) no-repeat;
+	width: 360px;
+	height: 225px;
+	overflow: hidden;
+}*/
+.minImg{
+	background: url(../img/yesSe.png) no-repeat;
+	width: 240px;
+	margin: 0 auto;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.minImg:hover,.ImgActive{
+	background: url(../img/noSe.png) no-repeat;
+	width: 240px;
+	height: 150px;
+	overflow: hidden;
+}
+.leftImg span{
+	display: inline-block;
+	margin-top: 20px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    cursor: pointer;
+}
+/*介绍我们*/
+.aboutMe{
+	width: 80%;
+	*width: 85%;
+	margin:0 auto;
+	margin-top: -160px;
+	*margin-top: 20px;
+}
+.aboutMe .aboutZd{
+	width: 32%;
+	padding-left: 5%;
+	*width: 26%;
+}
+.aboutZd h2{
+	margin-top: -40px;
+	*margin-top: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(84, 163, 238);
+}
+.aboutZd p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.aboutImg{
+	width: 70%;
+	margin-top: 120px;
+	/*margin-right: 20px;*/
+}
+.aboutMe .abCon{
+	width: 36%;
+	*width: 35%;
+	text-align: center;
+	*margin-top: 100px;
+	margin-top: 30px;
+}
+.aboutMe .abCon img{
+	width: 86%;
+}
+.aboutMe .weTeam{
+	/*margin-left: 10px;*/
+	width: 30%;
+	*width: 22%;
+	padding-right: 5%;
+}
+.weTeam h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(84, 163, 238);
+	margin-top: 120px;
+	padding-left: 6%;
+}
+.weTeam p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    padding-left: 6%;
+}
+.weTeamL{
+	width: 100%;
+}
+.weTeamL .teamImg{
+	width: 70%;
+	margin-top: -40px;
+	*margin-top: 40px;
+}
+.footer{
+	position: absolute;
+	background: #666;
+	width: 100%;
+	bottom: 0;
+}
+.footer .wrap{
+	padding-left: 14%;
+	background: #666;
+	/*background: #67a0ee;*/
+	/*height: 44px;*/
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.footer ul{
+	width: 30%;
+}
+.footer ul li{
+	line-height: 23px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+}
+.footer ul li a,.footer p,.footer p a{
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+}
+.footer p{
+	line-height: 32px;
+	padding-left: 7.5%;
+}
+.footer .line{
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	min-width: 980px;
+	margin-top: 15px;
+}
+
+.down{
+	position: fixed;
+	left: 49%;
+	bottom: 1%;
+	z-index: 9999;
+}
+.time{
+	font-style: normal;
+}
+/*屏幕小与1600时的样式*/
+@media screen and (max-width: 1600px){
+	/*头部导航，屏幕输小样式*/
+	#menu{
+		margin-top: 1%;
+	}
+	/*头部输小时顶部导航字体改变*/
+	#menu a{
+		font-size: 16px;
+		padding-bottom: 19px;
+	}
+	.group{
+		width: 32%;
+	}
+	/*one os屏幕输小样式*/
+	.wordImg{
+		margin-top: 0px;
+	}
+	.conWord p{
+		line-height: 150%;
+		margin-top: 5px;
+	}
+	.leftImg span{
+	    font-size: 14px;
+	    margin-top: 10px;
+	}
+	.phoneImg{
+		margin-top: 30px;
+	}
+	.OneOS{
+	 width: 15%;
+	}
+	.one{
+		width:11%;
+	}
+	/*应用市场*/
+	.markwor{
+		width: 18%;
+	}
+	.marketCon p{
+		margin-top: 30px;
+		font-size: 16px;
+	}
+	/*开放平台*/
+	.openCon{
+		margin-top: -220px;
+	}
+	.openImg{
+		width: 57%;
+	}
+	.openCon .openwor{
+		width: 32%;
+	}
+	.open p{
+		font-size: 16px;
+		margin-top: 30px;
+	}
+	/*智能硬件*/
+	.wareBom{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.minImg{
+		background: url(../img/yesSe.png) no-repeat;
+		width: 240px;
+		margin: 0 auto;
+		height: 150px;
+		line-height: 150px;
+		text-align: center;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.minImg:hover,.ImgActive{
+		background: url(../img/noSe.png) no-repeat;
+		width: 240px;
+		height: 150px;
+		overflow: hidden;
+	}
+	/*联系我们*/
+	.aboutMe{
+		margin-top: -130px;
+	}
+	.aboutZd h2{
+		margin-top: -20px;
+		font-size: 28px;
+	}
+	.aboutZd p{
+		margin-top: 15px;
+	    font-size: 14px;
+	}
+	.aboutImg{
+		margin-top: 30px;
+		width: 65%;
+	}
+	.weTeamL .teamImg{
+		width: 65%;
+	}
+	.weTeam h2{
+		font-size: 28px;
+		margin-top: 15px;
+	}
+	.weTeam p{
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.weTeamL .teamImg{
+		margin-top: -20px;
+	}
+	.footer .wrap{
+		padding-left: 11%;
+		margin-top: 10px;
+	}
+	.aboutMe .abCon{
+		margin-top: 0;
+	}
+}
+
+/*动画效果*/
+/*oneos*/
+.phoneImg a:nth-child(2),.wareBom .leftImg:nth-child(2){
+	-webkit-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+.phoneImg a:nth-child(3),.wareBom .leftImg:nth-child(3) {
+	-webkit-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+
+.phoneImg a:nth-child(4),.wareBom .leftImg:nth-child(4) {
+	-webkit-animation-delay: 1.6s;
+	-o-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+	animation-delay: 1.6s;
+}

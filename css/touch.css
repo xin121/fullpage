@@ -1,0 +1,113 @@
+#menu{
+	margin-top: 1%;
+}
+/*头部输小时顶部导航字体改变*/
+#menu a{
+	font-size: 16px;
+	padding-bottom: 19px;
+}
+.group{
+	width: 32%;
+}
+/*one os屏幕输小样式*/
+.wordImg{
+	margin-top: 0px;
+}
+.conWord p{
+	line-height: 150%;
+	margin-top: 5px;
+}
+.leftImg span{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.phoneImg{
+	margin-top: 30px;
+}
+.OneOS{
+ width: 15%;
+}
+.one{
+	width:11%;
+}
+/*应用市场*/
+.markwor{
+	width: 18%;
+}
+.marketCon p{
+	margin-top: 30px;
+	font-size: 16px;
+}
+/*开放平台*/
+.openCon{
+	/*margin-top: -220px;*/
+}
+.openImg{
+	width: 57%;
+}
+.openCon .openwor{
+	width: 32%;
+}
+.open p{
+	font-size: 16px;
+	margin-top: 30px;
+}
+/*智能硬件*/
+.wareBom{
+	width: 80%;
+	margin: 0 auto;
+}
+.minImg{
+	background: url(../img/yesSe.png) no-repeat;
+	width: 240px;
+	margin: 0 auto;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.minImg:hover,.ImgActive{
+	background: url(../img/noSe.png) no-repeat;
+	width: 240px;
+	height: 150px;
+	overflow: hidden;
+}
+/*联系我们*/
+.aboutMe{
+	margin-top: -130px;
+}
+.aboutZd h2{
+	margin-top: -20px;
+	font-size: 28px;
+}
+.aboutZd p{
+	margin-top: 15px;
+    font-size: 14px;
+}
+.aboutImg{
+	margin-top: 30px;
+	width: 65%;
+}
+.weTeamL .teamImg{
+	width: 65%;
+}
+.weTeam h2{
+	font-size: 28px;
+	margin-top: 15px;
+}
+.weTeam p{
+	margin-top: 10px;
+	font-size: 14px;
+}
+.weTeamL .teamImg{
+	margin-top: -20px;
+}
+.footer .wrap{
+	padding-left: 11%;
+	margin-top: 10px;
+}
+.aboutMe .abCon{
+	margin-top: 0;
+}
+

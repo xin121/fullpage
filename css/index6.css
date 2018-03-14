@@ -1,0 +1,429 @@
+/**/
+.wrap{
+	width: 71%;
+	margin: 0 auto;
+	min-width: 980px;
+}
+/*顶部导航*/
+.hearder{
+	height: 8.7%;
+	width: 100%;
+	position: fixed;
+	#position:fixed;  
+	_position:fixed;  
+  	list-style-type: none; 
+  	z-index: 1000;
+	background: #fff;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	min-height: 60px;
+	line-height: 8.7%;
+}
+.heardLogo{
+	height: 100%;
+	width: 19.1%;
+	padding-top: 0.8%;
+}
+.logoname{
+	width: 21.5%;
+}
+.logo{
+	width: 49%;
+	margin-left:19%;
+}
+.heardNav{
+	height: 100%;
+}
+#menu{
+	margin-top: 5.5%;
+	display: inline-block;
+	*margin-top: -40px;
+	height: 100%;
+}
+#menu li{
+	float: left;
+	padding: 2px;
+}
+#menu a{
+	display: inline-block;
+	padding: 3px 20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	color: #000;
+	font-family: "微软雅黑";
+	font-weight: 700;
+}
+#menu a:hover{
+	color: #42b3eb;
+	border-bottom: 3px solid #42b3eb;
+}
+#menu .active a{
+	color: #42b3eb;
+	border-bottom: 3px solid #42b3eb;
+}
+/*首页样式*/
+.homeBg{
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+}
+.imgText{
+	width: 100%;
+}
+.line{
+	position: absolute;
+	width: 40%;
+}
+.word{
+	width: 19%;
+	position: absolute;
+	top: 23.7%;
+	left: 15%;
+}
+.group{
+	position: absolute;
+	width: 35%;
+	right: 18%;
+	bottom: -4%;
+}
+/*One OS*/
+.wordImg{
+	margin-top: -20px;
+	text-align: center;
+}
+.OneOsCon{
+	width: 100%;
+	
+}
+.OneOS{
+	width: 17.75%;
+}
+.one{
+	width: 13%;
+}
+.conWord p{
+	margin-top: 15px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 16px;
+    line-height: 180%;
+}
+.phoneImg{
+	margin-top: 100px;
+	text-align: center;
+}
+.phoneImg .imgb{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+.phoneImg .imgc{
+	margin-right: 4%;
+}
+.phoneImg .imga{
+	width: 9.25%;
+}
+.phoneImg .imgb{
+	width: 13%;
+}
+.phoneImg .imgc{
+	width: 14.25%;
+}
+.phoneImg .imgd{
+	width: 10.04%;
+}
+/*应用市场*/
+.market{
+	background: url(../img/markBg.png);
+}
+/*开放平台*/
+.markImg{
+	position: absolute;
+	width: 65.4%;
+	bottom: 1%;
+	left: 13%;
+}
+.openCon{
+	/*text-align: right;*/
+	float: right;
+	width: 40%;
+	margin-top: -300px;
+}
+.open p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 180%;
+}
+.openwor{
+	/*width: 37.9%;*/
+	width: 35%;
+}
+/*智能硬件*/
+.hardware{
+	background: url(../img/bga.png);
+	width: 100%;
+}
+.wareTop{
+	width: 75%;
+	margin: 0 auto;
+	min-width: 1040px;
+	height: 60%;
+	
+}
+.widImg{
+	/*width: 35.662%;*/
+	width: 30%;
+}
+.wareWordImg{
+	padding-top: 6%;
+	text-align: center;
+}
+.maxImg{
+	padding-top: 8%;
+	height: 100%;
+	line-height: 100%;
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 5%;
+}
+.wareTop .Left{
+	width: 50%;
+}
+.wareWord p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 180%;
+}
+.wareBom{
+	/*width: 90%;*/
+	width: 65%;
+	margin: 0 auto;
+	min-width: 1040px;
+}
+.leftImg{
+	width: 25%;
+	text-align: center;
+}
+/*.minImg{
+	background: url(../img/ys.png) no-repeat;
+	width: 360px;
+	margin: 0 auto;
+	height: 225px;
+	line-height: 225px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.minImg:hover,.ImgActive{
+	background: url(../img/ns.png) no-repeat;
+	width: 360px;
+	height: 225px;
+	overflow: hidden;
+}*/
+.minImg{
+		background: url(../img/yesSe.png) no-repeat;
+		width: 240px;
+		margin: 0 auto;
+		height: 150px;
+		line-height: 150px;
+		text-align: center;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.minImg:hover,.ImgActive{
+		background: url(../img/noSe.png) no-repeat;
+		width: 240px;
+		height: 150px;
+		overflow: hidden;
+	}
+.leftImg p{
+	margin-top: 20px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+/*介绍我们*/
+.aboutMe{
+	width: 85%;
+	margin:0 auto;
+	margin-top: -100px;
+}
+.aboutMe .aboutZd{
+	width: 32%;
+	padding-left: 5%;
+}
+.aboutZd h2{
+	margin-top: -40px;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(84, 163, 238);
+}
+.aboutZd p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.aboutImg{
+	width: 70%;
+	margin-top: 120px;
+	/*margin-right: 20px;*/
+}
+.aboutMe .abCon{
+	width: 36%;
+	text-align: center;
+}
+.aboutMe .abCon img{
+	width: 86%;
+}
+.aboutMe .weTeam{
+	/*margin-left: 10px;*/
+	width: 30%;
+	padding-right: 5%;
+}
+.weTeam h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(84, 163, 238);
+	margin-top: 120px;
+	padding-left: 6%;
+}
+.weTeam p{
+	margin-top: 40px;
+	color: rgb(120, 120, 120);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    padding-left: 6%;
+}
+.weTeamL{
+	width: 100%;
+}
+.weTeamL .teamImg{
+	width: 70%;
+	margin-top: -40px;
+}
+.footer{
+	position: absolute;
+	background: #666;
+	width: 100%;
+	bottom: 0;
+}
+.footer .wrap{
+	padding-left: 14%;
+	background: #666;
+	/*background: #67a0ee;*/
+	/*height: 44px;*/
+}
+.footer ul{
+	width: 30%;
+}
+.footer ul li{
+	line-height: 23px;
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+}
+.footer ul li a,.footer p,.footer p a{
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+}
+.footer p{
+	line-height: 32px;
+	padding-left: 7.5%;
+}
+.footer .line{
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	min-width: 980px;
+}
+
+.down{
+	position: fixed;
+	left: 49%;
+	bottom: 1%;
+	z-index: 9999;
+}
+/*屏幕小与1600时的样式*/
+@media screen and (max-width: 1600px){
+	/*头部导航，屏幕输小样式*/
+	#menu{
+		margin-top: 3.5%;
+	}
+	/*头部输小时顶部导航字体改变*/
+	#menu a{
+		font-size: 16px;
+		padding-bottom: 17px;
+	}
+	/*one os屏幕输小样式*/
+	.wordImg{
+		margin-top: 0px;
+	}
+	.conWord p{
+		line-height: 150%;
+		margin-top: 5px;
+	}
+	.leftImg p{
+	    font-size: 14px;
+	    margin-top: 5px;
+	}
+	.phoneImg{
+		margin-top: 60px;
+	}
+	/*开放平台*/
+	.openCon{
+		margin-top: -210px;
+	}
+	/*智能硬件*/
+	.wareBom{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.minImg{
+		background: url(../img/yesSe.png) no-repeat;
+		width: 240px;
+		margin: 0 auto;
+		height: 150px;
+		line-height: 150px;
+		text-align: center;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.minImg:hover,.ImgActive{
+		background: url(../img/noSe.png) no-repeat;
+		width: 240px;
+		height: 150px;
+		overflow: hidden;
+	}
+	/*联系我们*/
+	.aboutZd h2{
+		margin-top: -20px;
+		font-size: 30px;
+	}
+	.aboutZd p{
+		margin-top: 20px;
+	    font-size: 16px;
+	}
+	.aboutImg{
+		margin-top: 50px;
+	}
+	.weTeam h2{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.weTeam p{
+		margin-top: 15px;
+		font-size: 16px;
+	}
+	.weTeamL .teamImg{
+		margin-top: -20px;
+	}
+	.footer .wrap{
+		padding-left: 11%;
+	}
+}
